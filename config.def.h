@@ -11,7 +11,11 @@ static       int smartgaps          = 0;        /* 1 means no outer gap when the
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
 static const Bool viewontag         = True;     /* Switch view on tag switch */
-static const char *fonts[]          = { "monospace:size=10" };
+static const char *fonts[]          = { //"monospace:size=10",
+										"Smiley Sans:size=16:type=Regular:antialias=true:autohint=true",
+										"SauceCodePro Nerd Font:pixelsize=24:type=Regular:antialias=true:autohint=true",
+										"Noto Emoji:pixelsize=24:type=Regular:antialias=true:autohint=true",
+};
 static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
